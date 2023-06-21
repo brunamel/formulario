@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+}
+.page {
+    width: 210mm;
+    height: 297mm;
+    padding: 4mm;
+    margin: 10mm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: rgb(230, 229, 229);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+@page {
+    size: A4;  
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#info{
+    margin-left: 5px;
+    margin: 1px;
+    height: 25px;
+    width: 20%;
+    border-radius: 0%;
+}
+#titulo{
+    color:rgb(255, 255, 255);   
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 23px;
+    padding: 5px;
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+
+input, textarea{
+    border-radius: 21px;
+}
+#horarios{
+    border: 1.7px solid rgb(137, 135, 138);
+    height: 28px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgb(149, 149, 149);
+}
+th{
+    border: 1.5px #FFACAC;
+    padding: 8px;
+    background-color: #FFACAC;  
+    height: 20px;
+    width: 120px;
+    border-radius: 21px;
+    color: white;
+}
+
+#hora{
+    background-color: rgb(43, 43, 43);
+}
+#horas{
+    background-color: rgb(184, 183, 183);
+    height: 28px;
+    border: 1.7px solid rgb(94, 93, 95);
+}
+span{
+    background-color: rgb(47, 47, 47);
+}
+#tit{
+    border: 2px solid rgba(230, 188, 0, 0.774);
+    padding: 5px;
+    background-color: rgb(47, 47, 47);  
+    width: 450px;
+    color: white;
+    margin-left: 5em;
+    box-shadow: 1px 1px 1px rgb(149, 149, 149);
+    border-radius: 0%;
+    margin-left: 50%;
+}
+#propri{
+    resize: none;
+    margin-left: 27%;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
